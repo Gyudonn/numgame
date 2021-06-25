@@ -1,6 +1,11 @@
 import random
 
-r = random.randint(1, 100)
+start = input('Input the start num of range')
+start = int(start)
+end = input('Input the end num of range')
+end = int(end)
+
+r = random.randint(start, end)
 count = 1
 
 while True:
